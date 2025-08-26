@@ -116,6 +116,11 @@ video {
   color: #555;
 }
 
+.text-section li {
+  color: #555;
+  margin-left: 10px;
+}
+
 .text-section p:last-child {
   margin-bottom: 0;
 }
