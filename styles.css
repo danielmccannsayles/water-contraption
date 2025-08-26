@@ -39,7 +39,7 @@ body {
 /* Mobile: single column */
 .content {
   grid-template-columns: 1fr;
-  grid-template-areas: 
+  grid-template-areas:
     "left"
     "video1"
     "video2";
@@ -61,7 +61,7 @@ body {
 @media (min-width: 900px) {
   .content {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
+    grid-template-areas:
       "left video1"
       "video2 video1";
   }
@@ -72,11 +72,10 @@ body {
   .container {
     max-width: none;
   }
-  
+
   .content {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-      "left video1 video2";
+    grid-template-areas: "left video1 video2";
   }
 }
 
@@ -119,6 +118,13 @@ video {
 
 .text-section p:last-child {
   margin-bottom: 0;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
